@@ -152,10 +152,7 @@ class App extends React.Component {
       });
 
       //Account Balance Check
-      const BSDContract = new web3.eth.Contract(
-        BUSDABI,
-        "0x8eaa455A03d1aa63c1CCeAc1ffd0f83D4af7A8Fd"
-      );
+      const BSDContract = new web3.eth.Contract(BUSDABI, BUSDaddress);
       this.setState({
         contract: BSDContract,
         balance:
