@@ -49,7 +49,7 @@ class App extends React.Component {
   async Approve() {
     let ammount = this.state.from * 10 ** 18;
     let approve = await this.state.contract.methods.approve(
-      "0x563F0353F31aAD7Cf37Bd5f1E4C9806C4A23490F",
+      ContractAddress,
       Web3.utils.toBN(ammount)
     );
     approve

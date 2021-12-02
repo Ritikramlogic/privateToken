@@ -1,5 +1,5 @@
 //Token Contract;
-export const BUSDaddress = "0xD7400542C956dC77A848425b8ad667814E43Fc3b";
+export const BUSDaddress = "0xb388f5d16ea794205b957fd5fb02B9E77234a3F7";
 export const BUSDABI = [
   {
     inputs: [],
@@ -349,7 +349,7 @@ export const BUSDABI = [
 ];
 
 //Main Contract
-export const ContractAddress = "0x563F0353F31aAD7Cf37Bd5f1E4C9806C4A23490F";
+export const ContractAddress = "0x3a9f0Ccd176B38be1724FD1e8A146c6320aBe3fD";
 export const ContractABI = [
   {
     inputs: [
